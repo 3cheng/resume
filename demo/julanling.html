@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>3cheng-记加班-DEMO</title>
+	<link href="https://cdn.bootcss.com/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="demo_css/julanling.css">
+</head>
+<body>
+	<header>
+		<div>
+			<a class=logo href="#">记加班</a>
+			<ul class="nav-list">
+				<li><a href="javascript:;">首页</a></li>
+				<li><a href="javascript:;">打工圈</a></li>
+				<li><a href="javascript:;">招聘</a></li>
+				<li><a href="javascript:;">关于我们</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="container">
+		<div class="banner">
+			<div class="info">
+				<h1>蓝领打工交友必备神器-记加班</h1>
+				<img src="../demo/demo_img/julanling/img_01.png">
+				<div class="download">
+					<a href="javascript:;" title="安卓版下载">记加班app-安卓版下载</a>
+					<a href="javascript:;" title="苹果版下载">记加班app-苹果版下载</a>
+				</div>
+			</div>
+		</div>
+		<div class="show-one">
+			<div class="show-one-box">
+				<img src="demo_img/julanling/txt2.png">
+				<img src="demo_img/julanling/img_02.png" class="img-2">
+				<img src="demo_img/julanling/img_03.png" class="img-3">
+				<img src="demo_img/julanling/img_04.png" class="img-4">
+			</div>
+		</div>
+		<div class="show-two">
+			<div class="show-two-box">
+				<div class="left-box">
+					<h2>记加班app-日历快捷记</h2>
+					<div>
+						<img src="demo_img/julanling/img_05.png" class="img-2">
+						<img src="demo_img/julanling/img_06.png" class="img-3">
+						<img src="demo_img/julanling/img_07.png" class="img-4">
+					</div>
+				</div>
+				<div class="right-box">
+					<h2>记加班app-工资自动算</h2>
+					<div>
+						<img src="demo_img/julanling/img_10.png" class="img-2">
+						<img src="demo_img/julanling/img_09.png" class="img-3">
+						<img src="demo_img/julanling/img_08.png" class="img-4">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="show-last">
+			<div class="show-last-box">
+				<h2>记加班app-全球首款用手机记录加班时间的工具型应用</h2>
+				<p>记加班是全球首款用手机记录加班时间的工具型应用。团队2014年3月创立于上海，致力于为全国广大打工者提供更贴心更实在的产品。</p>
+				<ul class="clearfix">
+					<li>
+						<img src="../demo/demo_img/julanling/img_12.png">
+						<p>媒体垂询</p>
+						<span>media@julanling.com</span>
+					</li>
+					<li>
+						<img src="../demo/demo_img/julanling/img_13.png">
+						<p>问题反馈</p>
+						<span>investor@julanling.com</span>
+					</li>
+					<li>
+						<img src="../demo/demo_img/julanling/img_14.png">
+						<p>投资者联系</p>
+						<span>investor@julanling.com</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div>
+			<p>www.julanling.com 2014 © ALL Rightes Reserved.</p>
+			<p>沪ICP备 <span>14010925</span></p>
+			<p>
+				友情链接：
+				<a href="javascript:;">ZOL手机应用</a>
+				<a href="javascript:;">ZOL应用下载</a>
+				<a href="javascript:;">非凡手机软件</a>
+				<a href="javascript:;">太平洋安卓软件</a>
+			</p>
+		</div>
+	</footer>
+	<script src="https://cdn.bootcss.com/jquery/1.7.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".info>h1").animate({opacity: 1},800);
+			$(".info>img").animate({bottom: 0},1000);
+			$(window).scroll(function(){
+
+				if($(this).scrollTop()>=100){
+					$(".show-one-box>img:first").animate({top: 20,opacity: 1},800);
+					$(".show-one-box>.img-2").animate({top: 150,opacity: 1},800);
+				}
+
+				if($(this).scrollTop()>=400){
+					$(".show-one-box>.img-3").animate({marginLeft:-300,top: 180,opacity: 1},1000);
+					$(".show-one-box>.img-4").animate({marginLeft:203,top: 420,opacity: 1},1000);
+				}
+
+				if($(this).scrollTop()>=700){
+					$(".show-two h2").animate({top: 60,opacity: 1},800);
+				}
+
+				if($(this).scrollTop()>=1100){
+					$(".show-two .img-2").animate({top: 200,opacity: 1},800);
+					$(".show-two-box .img-3").animate({marginLeft:-215,top: 215,opacity: 1},1000);
+					$(".show-two-box .img-4").animate({marginLeft:48,top: 440,opacity: 1},1000);
+				}
+			});
+		})
+	</script>
+</body>
+</html>

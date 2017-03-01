@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>3cheng-描点</title>
+	<style>
+
+		body{
+			height: 3000px;
+			margin: 0;
+			background: #0093dd;
+		}
+
+		ul,li,p{
+			margin: 0;
+			padding: 0;
+		}
+
+		li{
+			list-style: none;
+		}
+		
+		a{
+			display: block;
+			text-decoration: none;
+			color: #fff;
+		}
+
+		a:hover{
+			background: rgba(255,255,255,.3);
+		}
+
+		#tbox{
+			position: fixed;
+			top: 50%;
+			right: 100px;
+			margin-top:-92.5px;
+			width: 30px;
+			height: 185px;
+			text-align: center;
+			color: white;
+			border: 2px solid #fff;
+			float: left;
+			display: none;
+		}
+
+		#tbox a{
+			font-weight: bold;
+			line-height: 30px;
+			width: 30px;
+			height: 30px;
+		}
+
+		#tbox a+a{
+			border-top: 1px solid #fff;
+		}
+		
+		.indexnav_wrap{
+			width: 100%;
+			height: 50px;
+			border-bottom: 2px solid #fff;
+		}
+
+		.active{
+			position: fixed;
+			top: 0;
+		}
+
+		.indexnav_wrap ul{
+			width: 800px;
+			height: 100%;
+			margin: 0 auto;
+		}
+
+		.indexnav_wrap ul li{
+			width: 20%;
+			height: 100%;
+			float: left;
+			text-align: center;
+			line-height: 50px;
+		}
+		
+		.box{
+			width: 800px;
+			height: 500px;
+			margin: 0 auto;
+			position: relative;
+			font-size: 30px;
+			color: #fff;
+			border-bottom: 2px solid #fff;
+			text-align: center;
+		}
+
+		.box:hover{
+			background: rgba(255,255,255,.3);
+		}
+
+		.box p{
+			position: absolute;
+			top: 0;
+			display: block;
+			width: 800px;
+			line-height: 40px;
+		}
+		.box span{
+			font-size: 20px;
+			position: absolute;
+			bottom: 0;
+			display: block;
+			width: 800px;
+			line-height: 40px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="indexnav_wrap">
+		<ul class="index_nav">
+			<li><a href="javascript:;" title="1">内容一</a></li>
+			<li><a href="javascript:;" title="2">内容二</a></li>
+			<li><a href="javascript:;" title="3">内容三</a></li>
+			<li><a href="javascript:;" title="4">内容四</a></li>
+			<li><a href="javascript:;" title="5">内容五</a></li>
+		</ul>
+	</div>
+
+	<div id="tbox">
+	    <a class="taoba" href="javascript:;" title="1">1</a>
+	    <a class="taoba" href="javascript:;" title="2">2</a>
+	    <a class="taoba" href="javascript:;" title="3">3</a>
+	    <a class="taoba" href="javascript:;" title="4">4</a>
+	    <a class="taoba" href="javascript:;" title="5">5</a>
+	    <a id="gotop" href="javascript:;" title="回到顶部">↑</a>
+	</div>
+
+	<div class="one box">
+		<p id="index_1">内容一 /开始/</p>
+		<span>内容一 结束</span>
+	</div>
+	<div class="two box">
+		<p id="index_2">内容二 /开始/</p>
+		<span>内容二 结束</span>
+	</div>
+	<div class="three box">
+		<p id="index_3">内容三 /开始/</p>
+		<span>内容三 结束</span>
+	</div>
+	<div class="four box">
+		<p id="index_4">内容四 /开始/</p>
+		<span>内容四 结束</span>
+	</div>
+	<div class="five box">
+		<p id="index_5">内容五 /开始/</p>
+		<span>内容五 结束</span>
+	</div>
+	
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+;(function(){
+	// ======
+	$(window).scroll(function(){
+		t=$(document).scrollTop();
+		if(t>=300){
+			$('#tbox').fadeIn('800'); 
+		}else{
+			$('#tbox').fadeOut('800');
+		}
+		// show() ≈ fadeIn('slow/800/fast')
+		// hide() ≈ fadeOut('slow/800/fast')
+		// 前提CSS中必须写入 display: none;
+	});
+	// ======
+	$('#gotop').click(function(){
+		$('body,html').animate({
+			scrollTop: 0
+		},800);
+		return false;
+	});
+	// ======
+	$(".index_nav li a,.taoba").click(function() { 
+		var index=this.title
+		var id='#'+'index_'+index
+		$("html,body").animate({scrollTop: $(id).offset().top}, 1000);
+		return false;
+	});
+})();
+</script>
+</body>
+</html>

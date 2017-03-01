@@ -1,0 +1,234 @@
+.head{width:100%;min-width:1000px;height:55px;background:#f8f7f7;background:url(../demo_img/game/top.png) repeat-x center bottom;}
+.head .top{width:1000px;height:50px;margin:0 auto;}
+.head .top .logo{float:left;width:99px;height:36px;border-right:1px solid #ccc;
+    background:url(../demo_img/game/logo.png) no-repeat 0 0;margin-left:14px;margin-top:6px;text-indent:-999em;}
+.head .top ul{float:right;margin-right:10px;}
+.head .top ul li{float:left;height:50px;font:bold 12px/50px '微软雅黑';width:41px;}
+.head .top ul li.li1{background:url(../demo_img/game/reg.png) no-repeat 0 center;margin-right:4px;padding-left:30px;}
+.head .top ul li.li2{background:url(../demo_img/game/chong.png) no-repeat 0 center;margin-right:4px;padding-left:30px;}
+.head .top ul li.li3{background:url(../demo_img/game/you.png) no-repeat 0 center;border-right:1px solid #ccc;padding-left:30px;}
+.head .top ul li.li4{text-align:center;width:82px;border-right:1px solid #ccc;}
+.head .top ul li.li4 a{display:block;padding-right:12px;background:url(../demo_img/game/top-list.png) no-repeat 58px center;}
+.head .top ul li.li5{text-align:center;width:112px;border-right:1px solid #ccc;}
+.head .top ul li.li5 a{display:block;padding-right:12px;background:url(../demo_img/game/top-list.png) no-repeat 90px center;}
+.head .top ul li.li6{text-align:center;width:112px;border-right:1px solid #ccc;}
+.head .top ul li.li6 a{display:block;padding-right:12px;background:url(../demo_img/game/top-list.png) no-repeat 90px center;}
+.head .top ul li a{color:#4a4a4a;}
+/**/
+/**/
+.body{width:100%;min-width:1000px;background:url(../demo_img/game/con_bg.jpg) no-repeat center 0 #1c1a25;}
+.body .b-box{width:1000px;margin:0 auto;background:url(../demo_img/game/bigimg.png) no-repeat center 0 #1c1a25;}
+.body .b-box .nav-box .top{height:107px}
+.body .b-box .nav-box .top .logo1{float:left;width:186px;height:100%;background:url(../demo_img/game/logo2.png) no-repeat 0 21px;margin-right:36px;}
+.body .b-box .nav-box .top ul{float:left;height:100%;}
+.body .b-box .nav-box .top li{float:left;height:100%;text-align:center;position: relative;}
+.body .b-box .nav-box .top li a{display:block;height:74px;padding-top:33px;color:#bebebe;}
+.body .b-box .nav-box .top li a p{font:16px/16px '微软雅黑';}
+.body .b-box .nav-box .top li a span{font:12px/12px '黑体';}
+.body .b-box .nav-box .top li.li1{width:60px;}
+.body .b-box .nav-box .top li div{height:107px;width:100%;background:url(../demo_img/game/nav_new_hover.jpg) no-repeat center;position: absolute;top:0;left:0;border-bottom:3px solid #fbe3b7;display:none;}
+.body .b-box .nav-box .top li div a{font:14px/53px '微软雅黑';color:#fff;border:0 none;padding:0;height:53px;}
+.body .b-box .nav-box .top li.li2{width:90px;}
+.body .b-box .nav-box .top li.li3{width:90px;}
+.body .b-box .nav-box .top li.li4{width:90px;}
+.body .b-box .nav-box .top li.li5{width:90px;}
+.body .b-box .nav-box .top li.li6{width:86px;}
+.body .b-box .nav-box .top li.li7{width:103px;}
+.body .b-box .nav-box .top li.li8{width:86px;}
+.body .b-box .nav-box .top li.li9{width:80px;}
+.body .b-box .nav-box .top li:hover{border-bottom:3px solid #fbe3b7;}
+.body .b-box .nav-box .top li:hover div{display:block;}
+.body .b-box .nav-box .top li div a:hover{color:#fbe3b7;}
+/**/
+.body .b-box .nav-box .bottom{margin-top:444px;height:110px;}
+.body .b-box .nav-box .bottom .left{float:left;width:617px;height:100%;background:url(../demo_img/game/sprite.png) 0 0;}
+.body .b-box .nav-box .bottom .left li{float:left;width:100px;}
+.body .b-box .nav-box .bottom .left li a{display:block;text-indent:-999em;height:110px;}
+.body .b-box .nav-box .bottom .left li.li1{width:216px;}
+.body .b-box .nav-box .bottom .left li.li2{width:101px;}
+.body .b-box .nav-box .bottom .left li.li1 a:hover{background:url(../demo_img/game/sprite.png) no-repeat 0 -110px;}
+.body .b-box .nav-box .bottom .left li.li2 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -216px -110px;}
+.body .b-box .nav-box .bottom .left li.li3 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -317px -110px;}
+.body .b-box .nav-box .bottom .left li.li4 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -417px -110px;}
+.body .b-box .nav-box .bottom .left li.li5 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -517px -110px;}
+
+.body .b-box .nav-box .bottom .right{float:left;height:110px;}
+.body .b-box .nav-box .bottom .right .server{margin:7px 0 0 13px;width:361px;height:49px;background:url(../demo_img/game/sever.png) no-repeat 0 0;padding-top:6px;}
+.body .b-box .nav-box .bottom .right .server p{font:14px/22px '微软雅黑';margin-left:84px;color:#adb9e0;}
+.body .b-box .nav-box .bottom .right .server p a{color:#f00000;}
+.body .b-box .nav-box .bottom .right .info{width:381px;height:42px;border:1px solid #443b4f;margin-top:4px;background:url(../demo_img/game/sprite.png) no-repeat 0 -220px;position:relative;}
+.body .b-box .nav-box .bottom .right .info p{float:left;font:12px/42px '微软雅黑';color:#adb9e0;padding-left:4px;}
+.body .b-box .nav-box .bottom .right .info p a{color:#f93d1a;text-decoration:underline;}
+.body .b-box .nav-box .bottom .right .info .plus{float:left;width:14px;height:14px;background:url(../demo_img/game/sprite.png) no-repeat -603px -227px;margin:15px 0 0 3px;}
+.body .b-box .nav-box .bottom .right .info .notice{float:left;font:12px/42px '微软雅黑';color:#adb9e0;margin-left:31px;}
+.body .b-box .nav-box .bottom .right .info div .weixin{position:absolute;top:0;left:241px;width:41px;height:41px;}
+.body .b-box .nav-box .bottom .right .info div .weixin:hover{background:url(../demo_img/game/sprite.png) no-repeat -398px -221px;}
+.body .b-box .nav-box .bottom .right .info div .sina{position:absolute;top:0;left:289px;width:41px;height:41px;}
+.body .b-box .nav-box .bottom .right .info div .sina:hover{background:url(../demo_img/game/sprite.png) no-repeat -442px -221px;}
+.body .b-box .nav-box .bottom .right .info div .weibo{position:absolute;top:0;left:337px;width:41px;height:41px;}
+.body .b-box .nav-box .bottom .right .info div .weibo:hover{background:url(../demo_img/game/sprite.png) no-repeat -486px -221px;}
+
+.body .b-box .content .banner{float:left;width:616px;height:303px;position: relative;border:1px solid #443b4f;}
+.body .b-box .content .banner li.guanfang{width:27px;height:63px;position: absolute;left:11px;top:11px;background:url(../demo_img/game/guanfang.png) no-repeat 0 0;}
+.body .b-box .content .banner li.meiti{width:27px;height:63px;position:absolute;left:11px;top:84px;background:url(../demo_img/game/meiti.png) no-repeat 0 0;}
+.body .b-box .content .news{float:right;}
+.body .b-box .content .news .title{width:381px;height:58px;background:url(../demo_img/game/sprite.png) no-repeat 0 -262px;}
+.body .b-box .content .news .title li{float:left;text-align:center;}
+.body .b-box .content .news .title li a{width:95px;height:58px;display:block;font:bold 14px/60px '微软雅黑;';color:#fefefe;}
+.body .b-box .content .news .title li.li1 a:hover{background:url(../demo_img/game/sprite.png) no-repeat 0 -320px;}
+.body .b-box .content .news .title li.li2 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -95px -320px;}
+.body .b-box .content .news .title li.li3 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -190px -320px;}
+.body .b-box .content .news .title li.li4 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -285px -320px;}
+.body .b-box .content .news .list{width:365px;height:230px;background:#2e303d;padding:17px 0 0 17px;}
+.body .b-box .content .news .list li{width:346px;height:18px;margin-bottom:9px;font:14px/18px '微软雅黑';}
+.body .b-box .content .news .list li a{color:#9ca7ca;}
+.body .b-box .content .news .list li a:hover{color:#fff;}
+.body .b-box .content .news .list li b{float:right;color:#9ca7ca;}
+.body .b-box .content .news .list li.toutiao{width:346px;height:34px;background:url(../demo_img/game/sprite.png) no-repeat 0 -378px;text-align:center;margin-bottom:8px;}
+.body .b-box .content .news .list li.toutiao a{font:bold 16px/34px '微软雅黑';color:#e93d03;}
+.body .b-box .content .news .list li.other a{float:right;padding-left:20px;background:url(../demo_img/game/plus-2.png) no-repeat 0 center;}
+/**/
+.body .b-box .zhong{height:132px;margin:32px 0 30px;}
+.body .b-box .zhong ul{margin-right:-8px;}
+.body .b-box .zhong ul li{float:left;margin-right:8px;}
+/**/
+.body .juese .left{float:left;}
+.body .juese .left .name{width:656px;height:59px;background:url(../demo_img/game/sprite.png) no-repeat 0 -412px;}
+.body .juese .left .name li{float:left;width:131px;}
+.body .juese .left .name li.li2{width:130px;}
+.body .juese .left .name li a{display:block;height:59px;width:131px;}
+.body .juese .left .name li.l2 a{width:130px;}
+.body .juese .left .name li.li1 a:hover{background:url(../demo_img/game/sprite.png) no-repeat 0 -471px;}
+.body .juese .left .name li.li2 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -131px -471px;}
+.body .juese .left .name li.li3 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -261px -471px;}
+.body .juese .left .name li.li4 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -392px -471px;}
+.body .juese .left .name li.li5 a:hover{background:url(../demo_img/game/sprite.png) no-repeat -523px -471px;}
+.body .juese .right{float:right;width:322px;}
+.body .juese .right h3{font:18px/32px '微软雅黑';color:#f3ca90;padding-left:42px;background:url(../demo_img/game/clock.png) no-repeat 2px center;}
+.body .juese .right .img{height:151px;width:100%;position: relative;margin-top:14px;border:1px solid #1c1a25;}
+.body .juese .right .img span{height:36px;width:100%;position: absolute;left:0;bottom:0;background:#000;opacity:0.5;filter:alpha(opacity:50);}
+.body .juese .right .img p{font:12px/36px '微软雅黑';color:#eee;position: absolute;bottom:0;left:0;padding-left:5px;}
+.body .juese .right ul{margin-top:10px;}
+.body .juese .right ul li{width:319px;height:25px;margin-bottom:3px;background:url(../demo_img/game/sprite.png) no-repeat -319px -530px;}
+.body .juese .right ul li a{float:left;font:12px/25px '微软雅黑';color:#a6b2d8;margin-left:28px;}
+.body .juese .right ul li a:hover{color:#fff;}
+.body .juese .right ul li b{float:right;color:#a6b2d8;font:12px/25px '微软雅黑';margin-right:9px;}
+/**/
+.body .much{margin-top:30px;}
+.body .much .l{float:left;}
+.body .much .l .enter{width:215px;height:189px;background:url(../demo_img/game/sprite.png) no-repeat 0 -555px;margin-bottom:23px;}
+.body .much .l .enter h3{text-align:center;font:16px/24px '微软雅黑';color:#dbca90;padding-top:11px;}
+.body .much .l .enter ul{margin-top:24px;margin-left:24px;margin-right:-8px;}
+.body .much .l .enter ul li{float:left;width:80px;margin-right:16px;}
+.body .much .l .enter ul li a{font:14px/28px '微软雅黑';color:#9587ab;}
+.body .much .l .enter ul li a:hover{color:#fff;}
+
+.body .much .l .meiti{margin-top:6px;margin-bottom:18px;text-align:center;font:16px/36px '微软雅黑';width:205px;height:36px;background:url(../demo_img/game/sprite.png) no-repeat -451px -273px;position: relative;}
+.body .much .l .meiti a{color:#b1a1ca;}
+.body .much .l .meiti a:hover{color:#fff;}
+.body .much .l .meiti .a{display:block;height:36px;width:206px;}
+.body .much .l .meiti div{width:206px;height:108px;background:#18171c;display:none;}
+.body .much .l .meiti:hover div{display:block;}
+
+.body .much .r{float:left;margin-left:19px;}
+.much .r .top .l1{float:left;}
+.much .r .top .l1 h3{font:18px/32px '微软雅黑';color:#f3ca90;padding-left:59px;background:url(../demo_img/game/jl.png) no-repeat 6px center;margin-bottom:10px;}
+.much .r .top .l1 .title .nav{float:left;}
+.much .r .top .l1 .title .nav li{float:left;height:46px;width:104px;border:1px solid #433b4f;text-align:center;}
+.much .r .top .l1 .title .nav li a{display:block;height:100%;width:100%;font:14px/46px '微软雅黑';color:#a295b7;}
+.much .r .top .l1 .title .nav li.first{background:#322b3c;border-bottom:1px solid #322b3c;}
+.much .r .top .l1 .title .nav li.first a{color:#fff;}
+.much .r .top .l1 .title .nav li.second{border-left:0 none;}
+.much .r .top .l1 .title .nav li.third{border-left:0 none;}
+.much .r .top .l1 .title .nav li a:hover{color:#fff;background:#322b3c;border-bottom:1px solid #322b3c;}
+.much .r .top .l1 .title .more{float:right;padding-left:16px;background:url(../demo_img/game/plus-2.png) no-repeat 0 center;font:12px/46px '微软雅黑';color:#a295b7;margin-right:22px;}
+.much .r .top .l1 .title .more:hover{color:#fff;}
+.much .r .top .l1 .cont{width:422px;height:256px;border:1px solid #433b4f;background:#322b3c;margin-top:-1px;}
+.much .r .top .l1 .cont .left{float:left;margin:23px 18px 0 15px;}
+.much .r .top .l1 .cont .ul{float:left;margin-top:21px;}
+.much .r .top .l1 .cont .ul li a{font:14px/26px '微软雅黑';color:#a295b7;}
+.much .r .top .l1 .cont .ul li a:hover{color:#fff;}
+.much .r .top .r1{float:left;margin-left:19px;}
+.much .r .top .r1 h3{font:18px/32px '微软雅黑';color:#f3ca90;padding-left:43px;background:url(../demo_img/game/ziliao.png) no-repeat 3px center;margin-bottom:10px;}
+.much .r .top .r1 .cont{width:320px;height:303px;border:1px solid #4b3f5c;background:#26212d;}
+.much .r .top .r1 .cont ul{padding:0 17px;}
+.much .r .top .r1 .cont ul li{height:58px;width:100%;border-bottom:1px dashed #594f67;}
+.much .r .top .r1 .cont ul li.last{border:0 none;}
+.much .r .top .r1 .cont ul li p{float:left;width:71px;font:14px/58px '微软雅黑';color:#fff;background:url(../demo_img/game/bg-3.png) no-repeat 0 16px;padding-left:7px;}
+.much .r .top .r1 .cont ul li div{float:left;font:14px/58px '微软雅黑';margin-left:18px;color:#594f67;}
+.much .r .top .r1 .cont ul li div a{color:#9587ab;margin:0 1px;}
+.much .r .top .r1 .cont ul li div a:hover{color:#fff;}
+.much .r .top .r1 .cont .enter{margin-top:5px;display:block;width:279px;height:39px;border:3px solid #4b3f5c;text-align:center;font:bold 22px/39px '微软雅黑';color:#9487aa;margin-left:17px;}
+.much .r .top .r1 .cont .enter:hover{background:#4b3f5c;color:#26212d;}
+/**/
+.much .r .bottom{margin-top:37px;}
+.much .r .bottom .l1{float:left;}
+.much .r .bottom .l1 h3{font:18px/32px '微软雅黑';color:#f3ca90;padding-left:50px;background:url(../demo_img/game/media.png) no-repeat 0 center;margin-bottom:10px;}
+.much .r .bottom .l1 .title .nav{float:left;}
+.much .r .bottom .l1 .title .nav li{float:left;height:46px;width:104px;border:1px solid #433b4f;text-align:center;}
+.much .r .bottom .l1 .title .nav li a{display:block;height:100%;width:100%;font:14px/46px '微软雅黑';color:#a295b7;}
+.much .r .bottom .l1 .title .nav li.first{background:#322b3c;border-bottom:1px solid #322b3c;}
+.much .r .bottom .l1 .title .nav li.first a{color:#fff;}
+.much .r .bottom .l1 .title .nav li.second{border-left:0 none;}
+.much .r .bottom .l1 .title .nav li.third{border-left:0 none;}
+.much .r .bottom .l1 .title .nav li a:hover{color:#fff;background:#322b3c;border-bottom:1px solid #322b3c;}
+.much .r .bottom .l1 .title .more{float:right;padding-left:16px;background:url(../demo_img/game/plus-2.png) no-repeat 0 center;font:12px/46px '微软雅黑';color:#a295b7;margin-right:22px;}
+.much .r .bottom .l1 .title .more:hover{color:#fff;}
+.much .r .bottom .l1 .cont{width:422px;height:256px;border:1px solid #433b4f;background:#322b3c;margin-top:-1px;}
+.much .r .bottom .l1 .cont .left{float:left;margin:23px 18px 0 15px;}
+.much .r .bottom .l1 .cont .ul{float:left;margin-top:21px;}
+.much .r .bottom .l1 .cont .ul li a{font:14px/26px '微软雅黑';color:#a295b7;}
+.much .r .bottom .l1 .cont .ul li a:hover{color:#fff;}
+
+.much .r .bottom .r1{float:left;margin-left:19px;}
+.much .r .bottom .r1 h3{font:18px/32px '微软雅黑';color:#f3ca90;padding-left:43px;background:url(../demo_img/game/shijue.png) no-repeat 3px center;margin-bottom:10px;}
+.much .r .bottom .r1 .title .nav{float:left;}
+.much .r .bottom .r1 .title .nav li{float:left;height:46px;width:104px;border:1px solid #433b4f;text-align:center;}
+.much .r .bottom .r1 .title .nav li a{display:block;height:100%;width:100%;font:14px/46px '微软雅黑';color:#a295b7;}
+.much .r .bottom .r1 .title .nav li.first{background:#322b3c;border-bottom:1px solid #322b3c;}
+.much .r .bottom .r1 .title .nav li.first a{color:#fff;}
+.much .r .bottom .r1 .title .nav li.second{border-left:0 none;}
+.much .r .bottom .r1 .title .nav li a:hover{color:#fff;background:#322b3c;border-bottom:1px solid #322b3c;}
+.much .r .bottom .r1 .title .more{float:left;padding-left:16px;background:url(../demo_img/game/plus-2.png) no-repeat 0 center;font:12px/46px '微软雅黑';color:#a295b7;margin-left:20px;}
+.much .r .bottom .r1 .title .more:hover{color:#fff;}
+.much .r .bottom .r1 .cont{width:320px;height:256px;border:1px solid #433b4f;background:#322b3c;margin-top:-1px;}
+.much .r .bottom .r1 .cont ul{margin:23px -9px 0 11px;}
+.much .r .bottom .r1 .cont ul li{float:left;margin:0 22px 23px 0;}
+
+.body .zhuyi{padding-bottom:32px;margin-top:20px;}
+.body .zhuyi .top{width:882px;height:20px;margin:0 auto 12px;}
+.body .zhuyi .top i{float:left;width:348px;height:100%;background:url(../demo_img/game/center.png) no-repeat 0 center;}
+.body .zhuyi .top b{float:left;width:29px;height:100%;background:url(../demo_img/game/left.png) no-repeat 0 center;margin:0 4px;}
+.body .zhuyi .top span{float:left;font:16px/20px '微软雅黑';color:#908c9b;margin:0 8px;}
+.body .zhuyi .top em{float:left;width:29px;height:100%;background:url(../demo_img/game/right.png) no-repeat 0 center;margin:0 4px;}
+.body .zhuyi .bottom p{width:100%;text-align:center;font:16px/30px '微软雅黑';color:#908c9b;padding-left:5px;}
+.body .dianzan .dz{height:122px;width:35px;position:fixed;top:300px;left:0;background:url(../demo_img/game/dianzan.png) no-repeat 0 0;}
+.body .dianzan .dz:hover{background:url(../demo_img/game/dianzan-2.png) no-repeat 0 0;}
+/**/
+.foot{width:100%;min-width:1000px;height:110px;background:url(../demo_img/game/bottom.png) repeat-x center top #181818;padding-top:30px;}
+.foot .box{width:1000px;margin:0 auto;}
+.foot .box .logo{float:left;width:102px;height:50px;background:url(../demo_img/game/logo_dark.png) no-repeat -5px -61px;margin-left:76px;}
+.foot .box .jin{float:left;width:30px;height:38px;background:url(../demo_img/game/cyou_copyright_sprite.png) no-repeat -1px -5px;margin:6px 17px 0 19px;}
+.foot .box .text{float:left;margin-top:7px;}
+.foot .box .text p{font:12px/22px '微软雅黑';color:#535353;}
+.foot .box .text a{color:#767676;}
+.foot .box .text a:hover{color:#999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

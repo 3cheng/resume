@@ -1,0 +1,577 @@
+ul,li,p,h1,h2,h3{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+.clearfix:after,.clearfix.before{
+	content: " ";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+/*=====================*/
+
+html{
+	font-size: 62.5%;
+	font-family: "微软雅黑";
+}
+
+a{
+	text-decoration: none;
+	color: #222;
+}
+
+body{
+	height: 200rem;
+	font-size: 1.2rem;
+	min-width: 120rem;
+}
+
+nav{
+	width: 100%;
+	height: 4.5rem;
+	top:0;
+	transition: all .3s linear;
+	z-index: 999;
+}
+
+.ab{
+	position: absolute;
+}
+
+.fix{
+	background: rgba(255,255,255,.95);
+	position: fixed;
+	border-bottom :.1rem solid rgba(0,0,0,.2);
+}
+
+nav>div{
+	width: 120rem;
+	height: 100%;
+	margin: 0 auto;
+}
+
+nav .logo{
+	float: left;
+}
+
+nav .logo img{
+	display: block;
+	width: 14.9rem;
+	height: 2.8rem;
+	margin-top: 0.85rem;
+}
+
+nav ul{
+	float: right;
+	padding: 1.25rem 0;
+}
+
+nav li{
+	float: left;
+	line-height: 2rem;
+}
+
+nav li+li{
+	border-left: .1rem solid #ddd;
+}
+
+nav li a{
+	display: block;
+	padding: 0 2rem;
+	color: #fff;
+	font-size: 1.4rem;
+}
+
+nav li a:hover{
+	font-weight: bold;
+}
+
+.banner-box{
+	width: 100%;
+	height: 63.5rem;
+	background-size: cover;
+	position: relative;
+}
+
+.banner-box div{
+	width: 26rem;
+	height: 24rem;
+	border: .7rem solid #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -14.7rem;
+	margin-left: -30%;
+	padding: 2rem;
+	color: #fff;
+	z-index: 9;
+}
+
+.banner-box div p{
+	font-weight: bold;
+	font-size: 4.4rem;
+	line-height: 5rem;
+}
+
+.banner-box div span{
+	font-size: 2.8rem;
+	line-height: 4rem;
+}
+
+.banner-box ul{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.banner-box ul li.banner-bg1{
+	opacity: 0;
+	transition: all 2s;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../demo_img/flowerplus/banner.jpg) center center / cover no-repeat;
+}
+
+.banner-box ul li.banner-bg2{
+	opacity: 0;
+	transition: all 2s;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../demo_img/flowerplus/banner-2.jpg) center center / cover no-repeat;
+}
+
+.banner-box ul li.active{
+	opacity: 1;
+}
+
+.weixin{
+	width: 100%;
+}
+
+.weixin .container{
+	width: 92rem;
+	margin: 7rem auto;
+	text-align: center;
+	color: #445a67;
+}
+
+.weixin .container>p{
+	width: 92rem;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.weixin .container>p>span{
+	font-size: 1.4rem;
+}
+
+.weixin .container img{
+	width: 11.2rem;
+	height: 11.2rem;
+	margin: 4rem 0 2rem;
+}
+
+.weixin .container .erw{
+	width: 92rem;
+	font-weight: bold;
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+}
+
+.show-img{
+	width: 100%;
+	height: 57rem;
+	background: #2f3134;
+}
+
+.show-img .item{
+	position: relative;
+	width: 25rem;
+	height: 41.5rem;
+}
+
+.show-img .item img{
+	display: block;
+	height: 41.5rem;
+	width: 25rem;
+	background: rgba(0,0,0,.5);
+}
+
+.show-img>div{
+	position: relative;
+	width: 100rem;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.show-img>div>div{
+	position: absolute;
+	top: 50%;
+	margin-top: -21rem;
+}
+
+.owl-prev{
+    cursor: pointer;
+	text-indent: -9999rem;
+	margin-top: -2.65rem;
+	top: 50%;
+	left: -8rem;
+	position: absolute;
+	height: 5.3rem;
+	width: 3rem;
+	background: url(../demo_img/flowerplus/prev.png) center center / cover no-repeat;
+}
+
+.owl-next{
+    cursor: pointer;
+	text-indent: -9999rem;
+	margin-top: -2.65rem;
+	top: 50%;
+	right: -8rem;
+	position: absolute;
+	height: 5.3rem;
+	width: 3rem;
+	background: url(../demo_img/flowerplus/next.png) center center / cover no-repeat;
+}
+
+.show-img .item>div{
+	width: 24rem;
+	position: absolute;
+	bottom: 0;
+	background: #fc6177;
+	padding: 1rem .5rem;
+	color: #fff;
+	text-align: center;
+	display: none;
+}
+
+.show-img .item:hover div{
+	display: block;
+}
+
+.show-img .item>div>p{
+	font-weight: bold;
+	font-size: 1.8rem;
+	line-height: 3rem;
+}
+
+.show-img .item>div>span{
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+
+section{
+	width: 100%;
+	background: #f6f6f6;
+	padding: 8rem 0;
+}
+
+section .info{
+	width: 120rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+section .info span{
+	font-size: 1.8rem;
+	line-height: 3rem;
+	color: #555;
+}
+
+section .info h2{
+	font-size: 2.4rem;
+	line-height: 4rem;
+	color: #333;
+}
+
+section .info p{
+	font-size: 1.6rem;
+	line-height: 3rem;
+	color: #555;
+	margin-bottom: 2rem;
+}
+
+section .story{
+	width: 120rem;
+	margin: 0 auto;
+}
+
+section .story p{
+	position: absolute;
+	bottom: 0;
+	line-height: 2rem;
+	width: 96%;
+	font-size: 1.2rem;
+	background: rgba(0,0,0,.6);
+	padding: .4rem 2%;
+	color: #fff;
+	display: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	letter-spacing: .1rem;
+}
+
+section .story div{
+	position: relative;
+	float: left;
+	height: 31.5rem;
+}
+
+section .story div:hover p{
+	display: block;
+}
+
+section .list1{
+	margin-bottom: .5%;
+}
+
+section .list1 div+div{
+	margin-left: .5%;
+}
+
+section .list2 div+div{
+	margin-left: .5%;
+}
+
+section .list1 .story-one{
+	width: 35%;
+	background: url(../demo_img/flowerplus/01.jpg) center center /cover no-repeat;
+}
+
+section .list1 .story-two{
+	width: 32%;
+	background: url(../demo_img/flowerplus/02.jpg) center center /cover no-repeat;
+}
+
+section .list1 .story-three{
+	width: 32%;
+	background: url(../demo_img/flowerplus/03.jpg) center center /cover no-repeat;
+}
+
+section .list2 .story-four{
+	width: 25%;
+	background: url(../demo_img/flowerplus/04.jpg) center center /cover no-repeat;
+}
+
+section .list2 .story-five{
+	width: 24.5%;
+	background: url(../demo_img/flowerplus/05.jpg) center center /cover no-repeat;
+}
+
+section .list2 .story-six{
+	width: 24.5%;
+	background: url(../demo_img/flowerplus/06.jpg) center center /cover no-repeat;
+}
+
+section .list2 .story-seven{
+	width: 24.5%;
+	background: url(../demo_img/flowerplus/07.jpg) center center /cover no-repeat;
+}
+
+.buyit{
+	width: 100%;
+}
+
+.buyit>div{
+	width: 80rem;
+	margin: 0 auto;
+	padding-top: 8rem;
+}
+
+.buyit .phone-pic{
+	float: left;
+	width: 30rem;
+	height: 54rem;
+	background: url(../demo_img/flowerplus/index-pc-phone.png) center / cover no-repeat;
+}
+
+.buyit .use-way{
+	float: right;
+	height: 54rem;
+	text-align: center;
+}
+
+.buyit .use-way h3{
+	font-size: 3rem;
+	line-height: 11rem;
+}
+
+.buyit .use-way .gz-text{
+	font-size: 1.8rem;
+	line-height: 3rem;
+}
+
+.buyit .use-way .gz-text b{
+	display: inline-block;
+	padding: 0 .5rem;
+	height: 2.2rem;
+	width: 2.8rem;
+	background: url(../demo_img/flowerplus/index-px-wx1.png) center no-repeat;
+	background-size: contain;
+}
+
+.buyit .use-way img.erw{
+	width: 11.2rem;
+	height: 11.2rem;
+	margin: 3rem 0;
+}
+
+.buyit .use-way .erw-text{
+	font-size: 1.4rem;
+	color: #555;
+}
+
+.buyit .use-way img.erw-list{
+	width: 36.5rem;
+	height: 4.4rem;
+	margin-top: 3rem;
+	border: .1rem solid #ccc;
+}
+
+.about{
+	width: 100%;
+	background: #a0b43c;
+}
+
+.about>div{
+	padding: 12rem 20rem;
+	width: 80rem;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.about span{
+	font-size: 1.8rem;
+	line-height: 3rem;
+}
+
+.about h3{
+	font-size: 2.4rem;
+	line-height: 4rem;
+}
+
+.about p{
+	font-size: 1.6rem;
+	line-height: 3rem;
+	letter-spacing: .1rem;
+}
+
+.contact{
+	width: 100%;
+	background: #FC6177;
+}
+
+.contact>div{
+	padding: 12rem 20rem;
+	width: 80rem;
+	height: 100%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.contact span{
+	font-size: 1.8rem;
+	line-height: 3rem;
+}
+
+.contact h3{
+	font-size: 2.4rem;
+	line-height: 4rem;
+}
+
+.contact p{
+	font-size: 1.6rem;
+	line-height: 3rem;
+	letter-spacing: .1rem;
+}
+
+.contact .adress{
+	padding-left: 2%;
+	background: url(../demo_img/flowerplus/index-pc-place.png) left center no-repeat;
+	background-size: 1.4rem 1.7rem;
+}
+
+.other{
+	width: 100%;
+	height: 26rem;
+}
+
+.other>div{
+	font-size: 1.4rem;
+	width: 98rem;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.other>div>div{
+	height: 100%;
+	width: 32.333333%;
+	float: left;
+}
+
+.other p{
+	font-size: 1.6rem;
+	margin: 11rem 0 1rem 14rem;
+}
+
+.other span{
+	margin-left: 14rem;
+}
+
+.other .time{
+	background: url(../demo_img/flowerplus/index-pc-car.png) 20% center no-repeat;
+	background-size: 5rem 5rem;
+}
+
+.other .buy{
+	border-left: .1rem solid #aaa;
+	border-right: .1rem solid #aaa;
+	background: url(../demo_img/flowerplus/index-px-wx.png) 20% center no-repeat;
+	background-size: 6.3rem 4.9rem;
+}
+
+.other .erw{
+	background: url(../demo_img/flowerplus/index-pc-erw.jpg) center center no-repeat;
+	background-size: 9.4rem 9.4rem;
+}
+
+.footer{
+	width: 100%;
+	background: #171717;
+}
+
+.footer>div{
+	font-size: 1.4rem;
+	width: 98rem;
+	height: 100%;
+	margin: 0 auto;
+	padding: 6rem 0;
+	text-align: center;
+	color: #fff;
+}
+
+.up{
+	width: 6.4rem;
+	height: 6.4rem;
+	background: url(../demo_img/flowerplus/up.png) left top no-repeat;
+	background-size: 6.4rem 6.4rem;
+	position: fixed;
+	right: 5rem;
+	bottom: 10rem;
+	cursor: pointer;
+	display: none;
+}

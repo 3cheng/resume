@@ -1,0 +1,316 @@
+ul,li,h1,h2,p{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color:#222;
+}
+
+.clearfix:after,.clearfix:before{
+	content: " ";display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+body{
+	color: #222;
+	font-family: "微软雅黑";
+}
+
+header{
+	width: 100%;
+	height: 66px;
+	position: relative;
+}
+
+header>div{
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+header .logo{
+	margin-top: 9px;
+	float: left;
+	text-indent: -9999px;
+	width: 169px;
+	height: 48px;
+	background:url(../demo_img/julanling/logo.png);
+}
+
+header .nav-list{
+	float:right;
+}
+
+header .nav-list li{
+	display: inline-block;
+}
+
+header .nav-list li+li{
+	margin-left:2px;
+}
+
+header .nav-list li a{
+	display: block;
+	padding: 0 12px;
+	height: 66px;
+	line-height: 66px;
+}
+
+header .nav-list li a:hover{
+	background: #FE4C46;
+	color: #fff;
+}
+
+/*=============================*/
+
+.container{
+	width: 100%;
+}
+
+.container .banner{
+	width: 100%;
+	height: 610px;
+	background: url(../demo_img/julanling/bg1.png);
+	overflow: hidden;
+}
+
+.container .banner .info{
+	padding-top:60px;
+	width: 1024px;
+	height: 550px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.container .banner .info h1{
+	width: 640px;
+	height: 125px;
+	text-indent: -9999px;
+	margin: 0 auto;
+	background: url(../demo_img/julanling/txt1.png);
+	opacity: 0;
+}
+
+.container .banner .info img{
+	position: absolute;
+	bottom: -50px;
+	left: 60px;
+}
+
+.container .banner .info .download{
+	position: absolute;
+	bottom: 100px;
+	right: 40px;
+}
+
+.container .banner .info .download a{
+	display: block;
+	width: 223px;
+	height: 57px;
+	text-indent: -9999px;
+	margin-bottom: 30px;
+	background: url(../demo_img/julanling/btn01.png);
+}
+
+.container .banner .info .download a+a{
+	background: url(../demo_img/julanling/btn02.png);
+}
+
+.container .show-one{
+	width: 100%;
+	height: 610px;
+}
+
+.container .show-one .show-one-box{
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.container .show-one .show-one-box img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -186px;
+	opacity: 0;
+}
+
+.container .show-one-box img.img-2{
+	top: 200px;
+	left: 50%;
+	margin-left: -123px;
+	opacity: 0;
+}
+
+.container .show-one-box img.img-3{
+	top: 300px;
+	left: 50%;
+	margin-left: -48.5px;
+	opacity: 0;
+}
+
+.container .show-one-box img.img-4{
+	top: 300px;
+	left: 50%;
+	margin-left: -62.5px;
+	opacity: 0;
+}
+
+.container .show-two{
+	width: 100%;
+	height: 610px;
+	background: #FF5252;
+}
+
+.container .show-two .show-two-box{
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.container .show-two .show-two-box .left-box{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.container .show-two .show-two-box .right-box{
+	width: 50%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+
+.container .show-two .show-two-box h2{
+	width: 292px;
+	height: 104px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -146px;
+	opacity: 0;
+	background: url(../demo_img/julanling/txt3.png);
+}
+
+.container .show-two .show-two-box .right-box h2{
+	background: url(../demo_img/julanling/txt4.png);
+}
+
+.container .show-two .show-two-box div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.container .show-two .show-two-box img.img-2{
+	position: absolute;
+	top: 240px;
+	left: 50%;
+	margin-left: -102.5px;
+	opacity: 1;
+}
+
+.container .show-two .show-two-box img.img-3{
+	position: absolute;
+	top: 283px;
+	left: 50%;
+	margin-left: -37px;
+	opacity: 0;
+}
+
+.container .show-two .show-two-box img.img-4{
+	position: absolute;
+	top: 283px;
+	left: 50%;
+	margin-left: -53px;
+	opacity: 0;
+}
+
+.container .show-last{
+	width: 100%;
+	height: 540px;
+}
+
+.container .show-last .show-last-box{
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container .show-last .show-last-box h2{
+	width: 158px;
+	height: 155px;
+	background: url(../demo_img/julanling/img_11.png) 0 20px no-repeat;
+	text-indent: -9999px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.container .show-last .show-last-box p{
+	width: 70%;
+	margin-left: 15%;
+	line-height: 2em;
+	font-size: 20px;
+}
+
+.container .show-last .show-last-box ul{
+	width: 100%;
+	margin-top: 20px;
+	line-height: 1.5em;
+	font-size: 20px;
+}
+
+.container .show-last .show-last-box ul li{
+	width: 33.333333333333%;
+	float:left;
+	color: #222;
+}
+
+.container .show-last .show-last-box ul li span{
+	font-size: 18px;
+}
+
+/*=============================*/
+
+footer{
+	width: 100%;
+	height: 89px;
+	background: #242638;
+	text-align: center;
+	padding-top: 19px;
+}
+
+footer p{
+	font-size: 12px;
+	color: #9b9db5;
+	margin-top: 10px;
+}
+
+footer span{
+	color: #a64444;
+}
+
+footer a{
+	display: inline-block;
+	color: #eee;
+	padding-left: 3px;
+}
+
+footer a+a{
+	border-left: 1px solid #eee;
+}

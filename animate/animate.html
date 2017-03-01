@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>animate.css 效果速查</title>
+	<link rel="stylesheet" href="../bootstrap/css/animate.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		
+		a{
+			font-size: 20px;
+			color: red;
+		}
+
+		body{
+			font-family: "微软雅黑";
+			width: 100%;
+			height: auto;
+			min-width: 760px;
+			background-color: #f5f5f5;
+			text-align: center;
+		}
+		.content .row{
+			padding: 30px 0;
+			width: 760px;
+			margin: 0 auto;
+			*zoom: 1;
+		}
+		.content .row:after,.content .row:before{
+			content: "";
+			display: table;
+			line-height: 0;
+		}
+		.content .row:after{
+			clear: both;
+		}
+		.content .row div{
+			float: left;
+			width: 150px;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			font-size: 14px;
+			color: #fff;
+			cursor: pointer;
+			margin:1px;
+		}
+		footer div{
+			color: #fff;
+			width: 120px;
+			height: 120px;
+			margin: 30px auto;
+			text-align: center;
+			line-height: 120px;
+			font-size: 30px;
+			border-radius: 50%;
+			background: red;
+		}
+		header h1{
+			margin: 50px auto;
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<!-- 
+	data-wow-duration="2s" 持续
+	data-wow-delay="5s" 延迟
+	data-wow-offset="10" 高度触发
+	data-wow-iteration="10" 重复
+	 -->
+	<header>
+		<h1>animate.css效果预览</h1>
+	</header>
+	<div class="site">
+		<a href="http://mynameismatthieu.com/WOW/" target="_blank">wow</a>
+		<a href="https://daneden.github.io/animate.css/" target="_blank">animate</a>
+	</div>
+	<div class="content">
+		<div class="row wow bounceInDown" data-wow-delay=".2s">
+			<div>bounce</div>
+			<div>flash</div>
+			<div>pulse</div>
+			<div>rubberBand</div>
+			<div>shake</div>
+			<div>swing</div>
+			<div>tada</div>
+			<div>wobble</div>
+			<div>jello</div>
+			<div>hinge</div>
+			<div>rollIn</div>
+			<div>rollOut</div>
+		</div>
+		<div class="row wow bounceInRight" data-wow-delay=".4s">
+			<div>bounceIn</div>
+			<div>bounceInUp</div>
+			<div>bounceInDown</div>
+			<div>bounceInLeft</div>
+			<div>bounceInRight</div>
+		</div>
+		<div class="row wow bounceInLeft" data-wow-delay=".6s">
+			<div>bounceOut</div>
+			<div>bounceOutUp</div>
+			<div>bounceOutDown</div>
+			<div>bounceOutLeft</div>
+			<div>bounceOutRight</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay=".8s">
+			<div>fadeIn</div>
+			<div>fadeInUp</div>
+			<div>fadeInUpBig</div>
+			<div>fadeInDown</div>
+			<div>fadeInDownBig</div>
+			<div>fadeInLeft</div>
+			<div>fadeInLeftBig</div>
+			<div>fadeInRight</div>
+			<div>fadeInRightBig</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay="0.1s">
+			<div>fadeOut</div>
+			<div>fadeOutUp</div>
+			<div>fadeOutUpBig</div>
+			<div>fadeOutDown</div>
+			<div>fadeOutDownBig</div>
+			<div>fadeOutLeft</div>
+			<div>fadeOutLeftBig</div>
+			<div>fadeOutRight</div>
+			<div>fadeOutRightBig</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay="0.1s">
+			<div>flip</div>
+			<div>flipInX</div>
+			<div>flipInY</div>
+			<div>flipOutX</div>
+			<div>flipOutY</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay="0.1s">
+			<div>lightSpeedIn</div>
+			<div>lightSpeedOut</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay="0.1s">
+			<div>rotateIn</div>
+			<div>rotateInUpLeft</div>
+			<div>rotateInUpRight</div>
+			<div>rotateInDownLeft</div>
+			<div>rotateInDownRight</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay="0.1s">
+			<div>rotateOut</div>
+			<div>rotateOutUpLeft</div>
+			<div>rotateOutUpRight</div>
+			<div>rotateOutDownLeft</div>
+			<div>rotateOutDownRight</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay="0.1s">
+			<div>slideInUp</div>
+			<div>slideInDown</div>
+			<div>slideInLeft</div>
+			<div>slideInRight</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay="0.1s">
+			<div>slideOutUp</div>
+			<div>slideOutDown</div>
+			<div>slideOutLeft</div>
+			<div>slideOutRight</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay="0.1s">
+			<div>zoomIn</div>
+			<div>zoomInUp</div>
+			<div>zoomInDown</div>
+			<div>zoomInLeft</div>
+			<div>zoomInRight</div>
+		</div>
+		<div class="row wow bounceInUp" data-wow-delay="0.1s">
+			<div>zoomOut</div>
+			<div>zoomOutUp</div>
+			<div>zoomOutDown</div>
+			<div>zoomOutLeft</div>
+			<div>zoomOutRight</div>
+		</div>
+	</div>
+	<footer>
+		<div class="wow pulse" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" data-wow-delay=".4s">E.N.D</div>
+	</footer>
+<script src="../bootstrap/js/wow.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+	new WOW().init();
+
+	;(function(){
+
+		var c=["#5BD5A0","#FFCC35","#1DAEE9","#EB3980","#C843A5"];
+		$('.row div').each(function(){
+			$(this).css({
+				backgroundColor:c[Math.floor((Math.random()*c.length))]
+			})
+		})
+
+		$('.row div').each(function(){
+
+			$(this).click(function(){
+				$(this).removeClass().addClass($(this).html()+' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+				$(this).removeClass()});
+			})
+
+		})
+
+	})();
+</script>
+</body>
+</html>
