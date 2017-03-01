@@ -13,6 +13,21 @@
       <script src="bootstrap/js/respond.min.js"></script>
     <![endif]-->
     <style>
+        
+        /* signika-normal - latin */
+        @font-face {
+          font-family: 'Signika';
+          font-style: normal;
+          font-weight: regular;
+          src: url('https://lib.baomitu.com/fonts/signika/signika-v6-latin-regular.eot'); /* IE9 Compat Modes */
+          src: local('Signika'), local('Signika-Normal'),
+               url('https://lib.baomitu.com/fonts/signika/signika-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('https://lib.baomitu.com/fonts/signika/signika-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+               url('https://lib.baomitu.com/fonts/signika/signika-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+               url('https://lib.baomitu.com/fonts/signika/signika-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('https://lib.baomitu.com/fonts/signika/signika-v6-latin-regular.svg#Signika') format('svg'); /* Legacy iOS */
+        }
+
         @font-face {
         font-family: 'Pacifico';
         font-style: normal;
@@ -25,15 +40,17 @@
         url('https://lib.baomitu.com/fonts/pacifico/pacifico-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
         url('https://lib.baomitu.com/fonts/pacifico/pacifico-v9-latin-regular.svg#Pacifico') format('svg'); /* Legacy iOS */
         }
-        body{padding: 50px 0;background-color: #f2f2f2;}
+        body{padding-top: 50px;background-color: #f1f1f1;font-family: Signika;}
         .navbar-brand{font-family: Pacifico;font-size: 24px;line-height: 15px;}
-        div.project{margin-top:100px;}
-        div.project .box{display:block;height: 150px;margin:30px 0;overflow: hidden;transition: .5s;color: #fff;text-decoration: none;}
+        div.project{margin-top:40px;}
+        div.project .box{position:relative;display:block;height: 150px;margin:30px 0;overflow: hidden;transition: .5s;color: #fff;text-decoration: none;border-radius: 12px;}
         div.project .hid{display: none;transition: .5s;}
         div.project h2{margin-top: 60px;transition: .5s;}
-        div.project .box:hover{transform: scale(1.1);}
+        div.project .glass{width: 100px;height: 150px;position: absolute;left:-200px;top:0;transform: skew(-30deg);background: linear-gradient(0deg,rgba(255,255,255,.1),rgba(255,255,255,.3),rgba(255,255,255,.5));}
+        div.project .box:hover{transform: scale(1.06);border-radius: 4px;}
         div.project .box:hover h2{margin-top: 20px;}
         div.project .box:hover .hid{display: block;}
+        div.project .box:hover .glass{left:1000px;transition: 1.4s;}
     </style>
   </head>
   <body>
@@ -62,6 +79,7 @@
                     <div class="hid wow bounceInUp">
                         <p>bootstrap</p><p>animate</p><p>jquery</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -70,6 +88,7 @@
                     <div class="hid wow bounceInUp">
                         <p>div+css3</p><p>animate</p><p>jquery</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -78,6 +97,7 @@
                     <div class="hid wow bounceInUp">
                         <p>&nbsp;</p><p>做了个单页，方便自己的查阅</p><p>&nbsp;</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -86,6 +106,7 @@
                     <div class="hid wow bounceInUp">
                         <p>&nbsp;</p><p>一个网站DEMO</p><p>&nbsp;</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
         </div>
@@ -97,6 +118,7 @@
                     <div class="hid wow bounceInUp">
                         <p>&nbsp;</p><p>一个网站DEMO</p><p>&nbsp;</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -105,6 +127,7 @@
                     <div class="hid wow bounceInUp">
                         <p>&nbsp;</p><p>一个静态页的DEMO</p><p>&nbsp;</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -113,6 +136,7 @@
                     <div class="hid wow bounceInUp">
                         <p>&nbsp;</p><p>一个静态页的DEMO</p><p>&nbsp;</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -121,6 +145,7 @@
                     <div class="hid wow bounceInUp">
                         <p>&nbsp;</p><p>一个静态页的DEMO</p><p>&nbsp;</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
         </div>
@@ -132,6 +157,7 @@
                     <div class="hid wow bounceInUp">
                         <p>&nbsp;</p><p>一个静态页的DEMO</p><p>&nbsp;</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -140,6 +166,7 @@
                     <div class="hid wow bounceInUp">
                         <p>&nbsp;</p><p>一个静态页的DEMO</p><p>&nbsp;</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -148,15 +175,8 @@
                     <div class="hid wow bounceInUp">
                         <p>&nbsp;</p><p>描点跳转的JS效果联系</p><p>&nbsp;</p>
                     </div>
+                    <div class="glass"></div>
                 </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-<!--                 <a href="demo/meilishuo.html" target="_blank" class="box">
-                    <h2>美丽说</h2>
-                    <div class="hid wow bounceInUp">
-                        <p>&nbsp;</p><p>一个静态页的DEMO</p><p>&nbsp;</p>
-                    </div>
-                </a> -->
             </div>
         </div>
     </div>
@@ -167,7 +187,7 @@
             
             new WOW().init();
 
-            var c=["#5BD5A0","#FFCC35","#1DAEE9","#EB3980","#C843A5"];
+            var c=["#5BD5A0","#FFCC35","#1DAEE9","#EB3980","#C843A5","#f77462","#6dc5dd"];
 
             $('div.project .box').each(function(){
                 $(this).css({backgroundColor:c[Math.floor((Math.random()*c.length))]})
